@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yx76xt7yiv");
+</script>
+<title>Poder Pessoal</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://pay.kiwify.com.br" crossorigin>
+<link rel="dns-prefetch" href="https://pay.kiwify.com.br">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,600&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --ink:#16304A; --ink-soft:#51677a; --cream:#F4F7F9; --cream-2:#E7EEF3;
+    --card:#ffffff; --plum:#104A74; --plum-deep:#0B3557; --gold:#2786BE;
+    --gold-soft:#9CC4DF; --line:#d7e2e8; --good:#128263; --max:660px; --r:16px;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--cream);color:var(--ink);
+    font-family:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:"Fraunces","Georgia",serif;font-weight:600;text-wrap:balance;line-height:1.14;margin:0}
+  p{margin:0}
+  img{max-width:100%}
+  .wrap{max-width:var(--max);margin:0 auto;padding-inline:20px}
+  .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--gold);display:inline-block}
+  .ribbon{background:var(--plum);color:#fff;text-align:center;font-weight:600;font-size:13px;padding:9px 16px;letter-spacing:.02em}
+  .ribbon b{font-weight:700}
+  section{padding-block:46px}
+  .section-title{font-size:clamp(25px,5.6vw,33px);text-align:center}
+  .lead{color:var(--ink-soft);text-align:center;max-width:48ch;margin:14px auto 0;font-size:16px}
+  .center{text-align:center}
+
+  /* placeholder image box */
+  .ph{border:2px dashed var(--gold);border-radius:12px;background:repeating-linear-gradient(45deg,#fff,#fff 12px,#eef4f8 12px,#eef4f8 24px);
+    color:#51677a;font-size:12.5px;text-align:center;display:flex;align-items:center;justify-content:center;padding:18px;min-height:120px;line-height:1.4}
+
+  /* CTA */
+  .cta{display:block;width:fit-content;max-width:100%;margin:22px auto 0;background:var(--gold);color:#fff;
+    font-weight:700;font-size:17px;text-decoration:none;padding:17px 30px;border-radius:999px;text-align:center;
+    box-shadow:0 12px 24px -8px rgba(16,74,116,.45);transition:transform .12s,box-shadow .12s}
+  .cta:hover{transform:translateY(-2px);box-shadow:0 16px 30px -8px rgba(16,74,116,.6)}
+  .cta .small{display:block;font-weight:500;font-size:12.5px;color:rgba(255,255,255,.9);margin-top:2px}
+
+  /* HERO */
+  .hero{background:radial-gradient(120% 90% at 50% -10%, rgba(39,134,190,.28), transparent 60%),linear-gradient(180deg,var(--plum-deep),var(--plum));
+    color:#fdf9f2;text-align:center;padding-block:50px 40px;position:relative;overflow:hidden}
+  .hero .eyebrow{color:var(--gold-soft)}
+  .hero h1{font-size:clamp(31px,7vw,45px);margin:14px 0 0;color:#fff}
+  .hero h1 em{font-style:italic;color:var(--gold-soft)}
+  .hero .sub{margin:16px auto 0;max-width:34ch;color:#efe4d6;font-size:16.5px}
+  .video-ph{margin:26px auto 0;max-width:520px;aspect-ratio:16/9;border-radius:14px;border:1px solid rgba(255,255,255,.25);
+    background:rgba(0,0,0,.28);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#f0e4d4;gap:10px}
+  .play{width:60px;height:60px;border-radius:50%;background:var(--gold);color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;padding-left:4px}
+  .hero-video{margin:26px auto 0;max-width:300px;width:100%;aspect-ratio:9/16;border-radius:18px;overflow:hidden;position:relative;border:1px solid rgba(255,255,255,.25);box-shadow:0 22px 55px -22px rgba(0,0,0,.65);background:#000;cursor:pointer}.hero-video video{width:100%;height:100%;object-fit:cover;display:block}.hero-video .unmute{position:absolute;right:10px;top:10px;background:rgba(0,0,0,.55);color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:8px 13px;font-size:13px;font-weight:600;cursor:pointer;display:flex;gap:6px;align-items:center;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}.hero-video .unmute:hover{background:rgba(0,0,0,.72)}
+  .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+  .badges span{font-size:12px;color:#efe0cf;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:7px 12px;border-radius:999px}
+
+  /* CRED STRIP */
+  .cred{background:var(--plum-deep);color:#e6d8c8;text-align:center;padding-block:20px}
+  .cred .nums{display:flex;gap:26px;justify-content:center;flex-wrap:wrap}
+  .cred .nums div{font-size:12.5px;line-height:1.2}
+  .cred .nums b{display:block;font-family:"Fraunces",serif;font-size:24px;color:var(--gold-soft)}
+
+  /* PAINS */
+  .pains{list-style:none;padding:0;margin:24px 0 0;display:flex;flex-direction:column;gap:11px}
+  .pains li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 44px;position:relative;font-size:15.5px;font-style:italic;color:#443a4c}
+  .pains li::before{content:"\201C";position:absolute;left:14px;top:22px;font-family:"Fraunces",serif;font-size:32px;line-height:0;color:var(--gold)}
+  .turn{background:var(--plum);color:#fdf9f2;border-radius:var(--r);padding:26px 22px;margin-top:24px;text-align:center}
+  .turn p{font-size:17.5px;color:#f4e9db}
+  .turn strong{color:var(--gold-soft)}
+  .turn p+p{margin-top:12px;font-size:14.5px;color:#e6d8c8}
+
+  /* bands */
+  .band-cream{background:var(--cream-2)}
+  .band-plum{background:linear-gradient(180deg,var(--plum),var(--plum-deep));color:#fdf9f2}
+  .band-plum .section-title{color:#fff}
+  .band-plum .lead{color:#e6d8c8}
+
+  /* MODULES demo */
+  .device{max-width:520px;margin:24px auto 0;border:1px solid rgba(255,255,255,.2);border-radius:16px;background:rgba(0,0,0,.25);padding:14px}
+  .mods{display:flex;flex-direction:column;gap:10px;margin-top:24px}
+  .mod{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;gap:13px;align-items:flex-start;color:var(--ink)}
+  .mod .n{font-family:"Fraunces",serif;font-size:19px;color:var(--gold);min-width:28px;font-weight:600}
+  .mod h3{font-size:16px;margin-bottom:2px}
+  .mod p{font-size:13.5px;color:var(--ink-soft)}
+
+  /* PALIATIVO */
+  .pal{display:flex;gap:20px;align-items:center;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:14px;padding:22px;margin-top:22px}
+  .pal .img{flex:0 0 180px;min-width:160px}
+  .pal .img .ph{min-height:150px}
+  .pal .txt{flex:1;min-width:220px}
+  .pal h3{font-size:20px}
+  .pal p{color:var(--ink-soft);font-size:14.5px;margin-top:8px}
+  .pal .val{display:inline-block;margin-top:12px;background:#e7f0f7;color:#104A74;font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px}
+
+  /* METHOD steps */
+  .steps{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+  .step{display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:15px 16px}
+  .step .num{font-family:"Fraunces",serif;font-weight:600;color:#0B3557;background:var(--gold-soft);min-width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px}
+  .step h3{font-size:16px;color:#fff}
+  .step p{font-size:13.5px;color:#e6d8c8;margin-top:3px}
+
+  /* AUTHORITY */
+  .auth{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+  .auth .photo{flex:0 0 150px;min-width:140px}
+  .auth .photo .ph{min-height:180px;border-radius:14px}
+  .auth .who{flex:1;min-width:230px}
+  .auth h2{font-size:24px}
+  .auth .role{color:var(--gold);font-weight:600;font-size:13px;letter-spacing:.02em;margin-top:4px;text-transform:uppercase}
+  .auth p{color:var(--ink-soft);font-size:15px;margin-top:12px}
+  .auth .proofrow{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}
+  .auth .proofrow .ph{min-height:80px;font-size:11px}
+
+  /* TESTIMONIALS */
+  .tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:22px}
+  .tcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .tcard .stars{color:var(--gold);letter-spacing:2px;font-size:13px}
+  .tcard q{display:block;margin-top:8px;font-style:italic;font-size:14px;color:#443a4c}
+  .tcard cite{display:block;margin-top:10px;font-style:normal;font-size:12.5px;color:var(--ink-soft);font-weight:600}
+
+  /* FOR WHOM */
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+  .two .col{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .two .col h3{font-size:16px;display:flex;align-items:center;gap:8px}
+  .two ul{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-direction:column;gap:9px}
+  .two li{font-size:13.5px;padding-left:24px;position:relative;color:#463c4e}
+  .two .yes li::before{content:"✓";position:absolute;left:0;color:var(--good);font-weight:700}
+  .two .no li::before{content:"✕";position:absolute;left:0;color:#b85c5c;font-weight:700}
+  @media(max-width:520px){.two{grid-template-columns:1fr}.auth .proofrow{grid-template-columns:repeat(2,1fr)}}
+
+  /* BONUS */
+  .bonus{display:flex;flex-direction:column;gap:11px;margin-top:22px}
+  .bonus-item{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px;display:flex;justify-content:space-between;gap:14px;align-items:center}
+  .bonus-item h3{font-size:15px}
+  .bonus-item p{font-size:12.5px;color:var(--ink-soft);margin-top:2px}
+  .bonus-item .val{color:var(--gold);font-weight:700;font-size:13.5px;white-space:nowrap}
+
+  /* OFFER */
+  .offer{background:linear-gradient(180deg,#fff,#fffdf9);border:1.5px solid var(--gold-soft);border-radius:20px;
+    box-shadow:0 20px 50px -24px rgba(11,53,87,.35);padding:30px 24px;text-align:center;margin-top:12px}
+  .stack{list-style:none;padding:0;margin:0 0 18px;text-align:left;display:flex;flex-direction:column;gap:8px}
+  .stack li{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding-bottom:8px;border-bottom:1px dashed var(--line)}
+  .stack li span:last-child{color:var(--ink-soft);text-decoration:line-through;white-space:nowrap}
+  .stack .tot{border:0;font-weight:700;font-size:15px}
+  .stack .tot span:last-child{color:var(--ink);text-decoration:line-through}
+  .price-from{color:var(--ink-soft);font-size:14px}
+  .price{font-family:"Fraunces",serif;font-size:56px;color:var(--plum);line-height:1;margin:6px 0 2px}
+  .price small{font-size:20px;vertical-align:super}
+  .price-note{color:var(--ink-soft);font-size:13.5px}
+  .secure{margin-top:14px;color:var(--ink-soft);font-size:12.5px}
+
+  /* GUARANTEE */
+  .guar{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px 22px;margin-top:12px;display:flex;gap:16px;align-items:center}
+  .guar .seal{min-width:66px;height:66px;border-radius:50%;border:2px solid var(--good);color:var(--good);font-family:"Fraunces",serif;font-weight:600;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;line-height:1}
+  .guar .seal b{font-size:22px}
+  .guar .seal i{font-size:9px;font-style:normal;letter-spacing:.08em;margin-top:2px}
+  .guar h3{font-size:17px}
+  .guar p{font-size:14px;color:var(--ink-soft);margin-top:4px}
+
+  /* FAQ */
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:0 18px;margin-top:10px}
+  summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:15px;display:flex;justify-content:space-between;gap:12px;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--gold);font-size:22px;font-weight:400}
+  details[open] summary::after{content:"\2013"}
+  details p{padding:0 0 16px;font-size:14.5px;color:var(--ink-soft)}
+
+  /* FINAL */
+  .final{background:linear-gradient(180deg,var(--plum),var(--plum-deep));color:#fdf9f2;text-align:center}
+  .final h2{color:#fff;font-size:clamp(25px,5.6vw,31px)}
+  .final .manifesto{font-family:"Fraunces",serif;font-style:italic;font-size:19px;color:var(--gold-soft);margin:0 auto;max-width:26ch}
+  .final p{color:#efe4d6;max-width:40ch;margin:16px auto 0}
+  footer{background:var(--plum-deep);color:#c9b8cf;text-align:center;font-size:12px;padding:26px 20px 34px}
+  footer a{color:#9CC4DF;text-decoration:none}
+  .disc{max-width:var(--max);margin:0 auto;line-height:1.5}
+  .hero-photo{width:230px;max-width:72%;border-radius:16px;margin:24px auto 0;display:block;box-shadow:0 16px 40px -16px rgba(0,0,0,.55);border:3px solid rgba(156,196,223,.55)}
+  .auth-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px;display:block}
+  .proofrow figure{margin:0}
+  .proofrow img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:10px;display:block}
+  .proofrow figcaption{font-size:11px;color:var(--ink-soft);margin-top:4px;text-align:center}
+  .dep-grid{columns:220px;column-gap:12px;margin-top:22px}
+  .dep-grid img{width:100%;margin-bottom:12px;border-radius:12px;border:1px solid var(--line);break-inside:avoid;display:block}
+  .ev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
+  .ev-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;display:block}
+  @media(max-width:520px){.ev-grid{grid-template-columns:1fr 1fr}}
+  .logic{max-width:54ch;margin:24px auto 0;display:flex;flex-direction:column;gap:12px}
+  .logic p{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;padding:13px 16px;font-size:15.5px;color:#3a2f42}
+  .logic span{color:var(--gold);font-family:"Fraunces",serif;font-weight:600;margin-right:6px}
+  .logic strong{color:var(--plum)}
+  .auth-img{object-position:center 22%}
+  .proofrow img,.ev-grid img{object-position:center}
+.brandmark{display:block;margin:0 auto 12px;opacity:.96}.herocred{margin-top:16px;font-size:12.5px;color:#9CC4DF;letter-spacing:.02em;font-weight:600}
+</style>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2685059361941887');
+fbq('track', 'PageView');
+</script>
+<noscript><img loading="lazy" decoding="async" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2685059361941887&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
+
+<div class="ribbon">🌙 <b>Condição de lançamento:</b> acesso completo por apenas <b>R$ 37</b></div>
+
+<!-- 1. HERO -->
+<header class="hero">
+  <div class="wrap">
+    <img class="brandmark" src="mandala-branca.svg" alt="Malu Lima" width="60" height="60"><span class="eyebrow">Curso online · com a psicóloga Malu Lima</span>
+    <h1>Você não repete<br>porque é <em>fraca.</em></h1>
+    <p class="sub">Existe uma história por trás disso. O que te prende não é falta de força de vontade, é a memória. A psicóloga Malu te mostra o primeiro passo pra sair do padrão.</p>
+    <a class="cta" href="#" data-checkout>Começar agora · R$ 37<span class="small">Acesso imediato • Garantia de 7 dias</span></a>
+    <div class="herocred">Psicóloga · +20 anos · +1.000 pacientes · Neurociência + TCC</div>
+    <div class="hero-video" onclick="(function(v,b){v.muted=!v.muted;if(!v.muted){v.play();b.innerHTML='&#128266; Som ligado'}else{b.innerHTML='&#128263; Tocar com som'}})(document.getElementById('heroVideo'),document.getElementById('heroUnmute'))"><video id="heroVideo" autoplay muted playsinline preload="auto" poster="img_01.jpg"><source src="hero.mp4" type="video/mp4"></video><button id="heroUnmute" class="unmute" type="button">&#128263; Tocar com som</button></div>
+    
+    <div class="badges"><span>🔓 Acesso imediato</span><span>🛡️ Garantia de 7 dias</span><span>🔒 Compra 100% segura</span></div>
+  </div>
+</header>
+
+<!-- 2. CRED STRIP -->
+<div class="cred">
+  <div class="wrap">
+    <div class="nums">
+      <div><b>+20</b>anos de clínica</div>
+      <div><b>+1.000</b>pacientes atendidos</div>
+      <div><b>SENAC</b>docente</div>
+      <div><b>Neuro+TCC</b>método integrativo</div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. DOR / IDENTIFICAÇÃO -->
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Você é realizada por fora… mas está travada por dentro?</h2>
+    <p class="lead">Se você já tentou de tudo e sente que, por mais que se esforce, sempre volta pro mesmo lugar, leia com atenção.</p>
+    <ul class="pains">
+      <li>Já tentei de tudo e nada resolve.</li>
+      <li>Não aguento mais ser a pessoa que eu sou.</li>
+      <li>Por mais que eu me esforce, nada dá certo pra mim.</li>
+      <li>Tô exausta, ansiosa, sem dormir, sentindo que a vida perdeu o sentido.</li>
+    </ul>
+    <div class="turn">
+      <p>Você repete os mesmos padrões porque eles estão gravados na sua <strong>memória emocional</strong>, não na sua força de vontade.</p>
+      <p>Isso não é pensamento positivo. É consciência. E ninguém muda o que não percebe. É exatamente aqui que começa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3b. LÓGICA DEDUTIVA / PREMISSA -->
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Pensa comigo por um instante</h2>
+    <div class="logic">
+      <p><span>1.</span> Se você se esforça e mesmo assim repete os mesmos resultados… então o problema não é falta de esforço.</p>
+      <p><span>2.</span> Se não é esforço, é algo mais profundo: a <strong>memória emocional</strong> que guarda esses padrões.</p>
+      <p><span>3.</span> E se o padrão mora na memória, força de vontade não resolve. Mas <strong>consciência</strong> começa a resolver.</p>
+      <p><span>4.</span> Então o primeiro passo não é tentar com mais força. É enxergar o que se repete. E é isso que este curso faz.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. DEMONSTRAÇÃO (por dentro do curso) -->
+<section class="band-plum">
+  <div class="wrap">
+    <span class="eyebrow center" style="display:block;color:var(--gold-soft)">Veja por dentro</span>
+    <h2 class="section-title">Poder Pessoal</h2>
+    <p class="lead">19 aulas curtas e 7 exercícios práticos onde a Malu te mostra, sem misticismo, como sua mente construiu os padrões que te travam e como começar a reescrevê-los. Assista no celular, no seu tempo.</p>
+    <div class="device"><img loading="lazy" decoding="async" src="img_02.jpg" alt="Área de membros do curso Poder Pessoal" style="width:100%;border-radius:10px;display:block"></div>
+    <div class="mods">
+      <div class="mod"><div class="n">01</div><div><h3>A mente que comanda a sua realidade</h3><p>Como pensamentos e emoções moldam os seus resultados.</p></div></div>
+      <div class="mod"><div class="n">02</div><div><h3>Por que você trava sempre no mesmo ponto</h3><p>O mecanismo invisível por trás do que você não conseguiu realizar.</p></div></div>
+      <div class="mod"><div class="n">03</div><div><h3>Autoestima em 6 pilares</h3><p>Como se ver, se aceitar e se posicionar com valor.</p></div></div>
+      <div class="mod"><div class="n">04</div><div><h3>As 7 saúdes: o equilíbrio da vida</h3><p>Prosperidade é equilíbrio, não só dinheiro.</p></div></div>
+      <div class="mod"><div class="n">05</div><div><h3>Suas sombras à luz</h3><p>Enxergar o que você reprime, porque ninguém muda o que não percebe.</p></div></div>
+      <div class="mod"><div class="n">06</div><div><h3>Dramas, traumas e repetição de padrão</h3><p>Por que você repete os mesmos ciclos e como quebrar a corrente.</p></div></div>
+      <div class="mod"><div class="n">07</div><div><h3>Vencendo as emoções negativas</h3><p>Ansiedade, medo, depressão e procrastinação destravados.</p></div></div>
+      <div class="mod"><div class="n">08</div><div><h3>As 7 ferramentas de reequilíbrio</h3><p>Recursos práticos para se fortalecer no dia a dia.</p></div></div>
+      <div class="mod"><div class="n">09</div><div><h3>Por que você atrai os mesmos resultados</h3><p>Como alinhar desejo, emoção e ação em vez de sabotar.</p></div></div>
+      <div class="mod"><div class="n">10</div><div><h3>As 5 linguagens do amor</h3><p>Para amar e ser amada na linguagem certa, inclusive com você mesma.</p></div></div>
+      <div class="mod"><div class="n">11</div><div><h3>O poder do sono</h3><p>A forma mais subestimada de restaurar energia e clareza.</p></div></div>
+      <div class="mod"><div class="n">12</div><div><h3>As 7 leis que regem a sua vida</h3><p>Os princípios por trás dos seus resultados e como usá-los a seu favor.</p></div></div>
+    </div>
+    <a class="cta" href="#oferta">Quero acessar o curso<span class="small">Acesso imediato • R$ 37</span></a>
+  </div>
+</section>
+
+<!-- 5. EFEITO PALIATIVO -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow center" style="display:block">Facilita a sua transformação</span>
+    <h2 class="section-title">Você recebe o Caderno de Exercícios, pronto pra usar</h2>
+    <div class="pal">
+      <div class="img"><img loading="lazy" decoding="async" src="img_03.png" alt="Caderno de Exercícios do curso Poder Pessoal" style="width:100%;border-radius:10px;display:block"></div>
+      <div class="txt">
+        <h3>Caderno de Exercícios</h3>
+        <p>Não é só assistir e esquecer. Você recebe um caderno guiado, pronto para imprimir, com os exercícios de cada aula para transformar o que aprendeu em prática de verdade. É pegar e fazer.</p>
+        <span class="val">Incluso sem pagar nada a mais</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. AUTORIDADE -->
+<section class="band-cream">
+  <div class="wrap">
+    <div class="auth">
+      <div class="photo"><img loading="lazy" decoding="async" class="auth-img" src="img_04.jpg" alt="Malu, psicóloga"></div>
+      <div class="who">
+        <span class="eyebrow">Quem vai te guiar</span>
+        <h2>Malu</h2>
+        <div class="role">Psicóloga · Especialista em TCC · Docente do SENAC</div>
+        <p>Há mais de 20 anos ela ajuda mulheres a mudarem, em meses, o que a terapia tradicional não muda em anos. Seu método integra neurociência, Terapia Cognitivo-Comportamental, processamento de memória e constelação, tratando a causa, não só o sintoma.</p>
+        <div class="proofrow">
+          <figure><img loading="lazy" decoding="async" src="img_05.jpg" alt="Malu na TV"><figcaption>Na TV</figcaption></figure>
+          <figure><img loading="lazy" decoding="async" src="img_06.jpg" alt="Malu em palestra"><figcaption>Em palestra</figcaption></figure>
+          <figure><img loading="lazy" decoding="async" src="img_07.jpg" alt="Malu em imersão"><figcaption>Em imersão</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. MÉTODO -->
+<section class="band-plum">
+  <div class="wrap">
+    <span class="eyebrow center" style="display:block;color:var(--gold-soft)">Como funciona</span>
+    <h2 class="section-title">Da repetição à escolha, em 4 etapas</h2>
+    <p class="lead">Este curso é a porta de entrada do método da Malu: a camada de consciência, onde tudo começa.</p>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><div><h3>Enxergar os padrões</h3><p>Identificar a história que se repete na sua vida.</p></div></div>
+      <div class="step"><div class="num">2</div><div><h3>Consciência (você está aqui)</h3><p>Entender por que isso acontece: os fundamentos do curso.</p></div></div>
+      <div class="step"><div class="num">3</div><div><h3>Reescrever a memória</h3><p>Trabalhar a raiz emocional que sustenta o padrão.</p></div></div>
+      <div class="step"><div class="num">4</div><div><h3>Sustentar a mudança</h3><p>Transformar o novo aprendizado em hábito de verdade.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. DEPOIMENTOS -->
+<section>
+  <div class="wrap">
+    <h2 class="section-title">O que muda na vida de quem faz esse trabalho</h2>
+    <p class="lead">Mensagens reais de pacientes e alunas da Malu.</p>
+    <div class="dep-grid">
+      <img loading="lazy" decoding="async" src="img_08.jpg" alt="Depoimento de aluna">
+      <img loading="lazy" decoding="async" src="img_09.jpg" alt="Depoimento de aluna">
+      <img loading="lazy" decoding="async" src="img_10.jpg" alt="Depoimento de aluna">
+    </div>
+  </div>
+</section>
+
+<!-- 8b. PROVA SOCIAL AO VIVO -->
+<section class="band-plum">
+  <div class="wrap">
+    <span class="eyebrow center" style="display:block;color:var(--gold-soft)">Não é só teoria</span>
+    <h2 class="section-title">Milhares de mulheres já viveram esse trabalho</h2>
+    <p class="lead">Em palestras, imersões e no consultório. E agora com a Malu no seu celular.</p>
+    <div class="ev-grid">
+      <img loading="lazy" decoding="async" src="img_11.jpg" alt="Evento da Malu">
+      <img loading="lazy" decoding="async" src="img_12.jpg" alt="Palestra da Malu">
+      <img loading="lazy" decoding="async" src="img_13.jpg" alt="Imersão da Malu">
+    </div>
+  </div>
+</section>
+
+<!-- 9. PRA QUEM É / NÃO É -->
+<section class="band-cream">
+  <div class="wrap">
+    <h2 class="section-title">Esse curso é pra você?</h2>
+    <div class="two">
+      <div class="col yes">
+        <h3>✅ É pra você que</h3>
+        <ul>
+          <li>É realizada por fora, mas se sente travada por dentro.</li>
+          <li>Já tentou de tudo e cansou de repetir os mesmos ciclos.</li>
+          <li>Quer entender a raiz, não só abafar o sintoma.</li>
+          <li>Está pronta para dar o primeiro passo, no seu tempo.</li>
+        </ul>
+      </div>
+      <div class="col no">
+        <h3>🚫 Não é pra você que</h3>
+        <ul>
+          <li>Procura solução mágica sem se olhar por dentro.</li>
+          <li>Quer só "pensamento positivo" e frases de efeito.</li>
+          <li>Não está disposta a fazer os exercícios propostos.</li>
+          <li>Acredita que a culpa é sempre do lado de fora.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. BÔNUS -->
+<section>
+  <div class="wrap">
+    <span class="eyebrow center" style="display:block">Bônus exclusivos</span>
+    <h2 class="section-title">Você também leva, sem pagar nada a mais:</h2>
+    <div class="bonus">
+      <div class="bonus-item"><div><h3>📓 Caderno de Exercícios (PDF)</h3><p>Os exercícios do curso prontos para imprimir e fazer.</p></div><span class="val">R$ 37</span></div>
+      <div class="bonus-item"><div><h3>🌀 Roda das 7 Saúdes (PDF)</h3><p>Mapeie seu equilíbrio e veja onde agir primeiro.</p></div><span class="val">R$ 27</span></div>
+      <div class="bonus-item"><div><h3>🎯 Meu Projeto de Vida (PDF)</h3><p>Planner das 8 áreas para desenhar seus próximos passos.</p></div><span class="val">R$ 27</span></div>
+      <div class="bonus-item"><div><h3>🎧 Meditações Guiadas</h3><p>Áudios para relaxar, reduzir a ansiedade e se reconectar.</p></div><span class="val">R$ 40</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 11. OFERTA -->
+<section id="oferta" class="band-cream">
+  <div class="wrap">
+    <h2 class="section-title">Dê o primeiro passo hoje</h2>
+    <div class="offer">
+      <ul class="stack">
+        <li><span>Curso Poder Pessoal: 19 aulas + 7 exercícios</span><span>R$ 197</span></li>
+        <li><span>Bônus: Caderno de Exercícios</span><span>R$ 37</span></li>
+        <li><span>Bônus: Roda das 7 Saúdes</span><span>R$ 27</span></li>
+        <li><span>Bônus: Meu Projeto de Vida</span><span>R$ 27</span></li>
+        <li><span>Bônus: Meditações Guiadas</span><span>R$ 40</span></li>
+        <li class="tot"><span>Valor total</span><span>R$ 328</span></li>
+      </ul>
+      <p class="price-from">Hoje, acesso completo por</p>
+      <div class="price"><small>R$</small>37</div>
+      <p class="price-note">à vista ou em até 3x no cartão</p>
+      <a class="cta" href="#" data-checkout>Quero começar agora<span class="small">Acesso imediato e vitalício</span></a>
+      <p class="secure">🔒 Compra 100% segura • Acesso na hora • Garantia de 7 dias</p>
+    </div>
+  </div>
+</section>
+
+<!-- 12. GARANTIA -->
+<section>
+  <div class="wrap">
+    <div class="guar">
+      <div class="seal"><b>7</b><i>DIAS</i></div>
+      <div>
+        <h3>Risco zero para você</h3>
+        <p>Entre, assista, faça os exercícios. Se em 7 dias você sentir que não é para você, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo nosso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13. FAQ -->
+<section class="band-cream">
+  <div class="wrap">
+    <h2 class="section-title">Perguntas frequentes</h2>
+    <div style="margin-top:20px">
+      <details><summary>Isso é autoajuda ou pensamento positivo?</summary><p>Não. A premissa aqui é outra: quem define o seu resultado é a memória emocional, não o pensamento positivo. É autoconhecimento com base em neurociência e psicologia. Simples de entender, mas sério.</p></details>
+      <details><summary>Já fiz terapia e não mudei. Vai ser diferente?</summary><p>Este curso é a camada de consciência: te ajuda a enxergar os padrões que você repete. É o primeiro passo. E, para muita gente, o que a terapia "só falada" nunca deixou claro.</p></details>
+      <details><summary>Como recebo o acesso?</summary><p>Assim que o pagamento é aprovado, você recebe um e-mail com login e senha da área de membros. Acesso imediato, pelo celular ou computador.</p></details>
+      <details><summary>Por quanto tempo tenho acesso?</summary><p>Acesso vitalício. Assista quantas vezes quiser, no seu ritmo, para sempre.</p></details>
+      <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia total. Se não for para você, é só pedir o reembolso e devolvemos tudo.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 14. CTA FINAL -->
+<section class="final">
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--gold-soft)">A escolha é sua</span>
+    <p class="manifesto" style="margin-top:12px">"A gente morre, mas não se entrega."</p>
+    <h2 style="margin-top:14px">Você pode mudar o seu resultado na hora que quiser.</h2>
+    <p>Por menos do que você gasta em um lanche, você dá o primeiro passo para se libertar dos padrões que arrasta há anos.</p>
+    <a class="cta" href="#" data-checkout>Começar agora por R$ 37<span class="small">Acesso imediato • Garantia de 7 dias</span></a>
+  </div>
+</section>
+
+<footer>
+  <p class="disc">Poder Pessoal é um curso educacional de autoconhecimento e desenvolvimento pessoal. O conteúdo tem caráter informativo e não substitui acompanhamento médico, psicológico ou psiquiátrico. Resultados variam de pessoa para pessoa e dependem do empenho individual.</p>
+  <p style="margin-top:14px">© Poder Pessoal • <a href="#">Termos</a> • <a href="#">Privacidade</a> • Contato: seu@email.com</p>
+</footer>
+
+<style>
+  .sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:9999;display:none;text-align:center;
+    background:#2786BE;color:#fff;font-weight:800;font-size:16px;
+    padding:15px 16px;text-decoration:none;box-shadow:0 -6px 22px rgba(0,0,0,.28)}
+  @media(max-width:768px){ .sticky-cta{display:block} body{padding-bottom:62px} }
+.brandmark{display:block;margin:0 auto 12px;opacity:.96}.herocred{margin-top:16px;font-size:12.5px;color:#9CC4DF;letter-spacing:.02em;font-weight:600}
+</style>
+<a class="sticky-cta" href="#" data-checkout>👉 Começar agora por R$ 37</a>
+<script>
+  var CHECKOUT_URL = "https://pay.kiwify.com.br/O26LbIP";
+  document.querySelectorAll('[data-checkout]').forEach(function(a){
+    if(CHECKOUT_URL && CHECKOUT_URL!=="#"){ a.setAttribute('href', CHECKOUT_URL); }
+    a.addEventListener('click', function(e){
+      if(!window.fbq){ return; }              /* sem pixel: navega normal */
+      e.preventDefault();
+      var done=false, go=function(){ if(done){return;} done=true; window.location.href=CHECKOUT_URL; };
+      try{ fbq('track','InitiateCheckout',{},{eventCallback:go}); }catch(err){ go(); }
+      setTimeout(go,400);                       /* fallback se o callback falhar */
+    });
+  });
+</script>
+
